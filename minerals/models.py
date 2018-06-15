@@ -22,6 +22,7 @@ class Mineral(models.Model):
     refractive_index = models.CharField(max_length=535, default='')
     crystal_habit = models.CharField(max_length=535, default='')
     specific_gravity = models.CharField(max_length=535, default='')
+    order = models.IntegerField(default=0)
 
     class Meta:
-        ordering = ['name',]
+        ordering = ['-order', 'name',]
