@@ -7,7 +7,7 @@ chardet==3.0.4
 click==6.7
 colorama==0.3.9
 coverage==4.5.1
-Django==2.0.7
+Django==2.2.13
 django-autoslug-iplweb==1.9.4.dev0
 django-bootstrap3==7.0.1
 django-braces==1.9.0
