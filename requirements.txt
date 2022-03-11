@@ -37,7 +37,7 @@ MarkupSafe==1.0
 misaka==2.0.0
 peewee==3.5.0
 pigar==0.7.2
-Pillow==5.1.0
+Pillow==9.0.1
 progressbar2==3.38.0
 pycparser==2.14
 python-slugify==1.2.5
